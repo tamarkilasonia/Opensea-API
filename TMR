@@ -24,7 +24,7 @@ mapping, data aggregation).
 Data Loading
 ● Load the transformed data into a table using the custom ORM.
 ● In addition to loading data into the database, save raw data in data lake (CSV or JSON
-format. Destination of the raw data and the way you save it is up to you.
+format. Destination of the raw data and the way you save it is up to you
 Table Design:
 ● You should design a table to store the extracted OpenSea Collections data. The
 following fields need to be present in your table:
