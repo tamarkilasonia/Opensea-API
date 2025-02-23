@@ -1,5 +1,7 @@
 # ETL Pipeline Documentation
 
+
+
 ## Overview
 
 This ETL (Extract, Transform, Load) pipeline is designed to fetch collections data from the OpenSea API, transform it to fit a structured database format, and load it into a PostgreSQL database using a custom ORM. Additionally, the raw data is stored in a data lake.
