@@ -21,7 +21,6 @@ project_root/
 │-- data_lake/
 │   │-- raw_data.json     # Stores extracted raw data
 │   │-- cleaned_data.json # Stores transformed data
-│-- .env                  # Environment variables (API keys, DB credentials)
 │-- run_scripts.py        # Playground for testing code
 │-- requirements.txt      # Requirement packages
 ```
