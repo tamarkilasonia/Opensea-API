@@ -6,6 +6,7 @@ This ETL (Extract, Transform, Load) pipeline is designed to fetch collections da
 
 ## Project Structure
 
+
 ```
 project_root/
 │-- handle_etl/
