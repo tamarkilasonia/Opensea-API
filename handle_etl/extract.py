@@ -51,4 +51,4 @@ def fetch_collections(limit=100, max_pages=5):
     with open(DATA_LAKE_PATH, "w", encoding="utf-8") as f:
         json.dump(collections, f, indent=4)
 
-    return collections
+    return collections 
