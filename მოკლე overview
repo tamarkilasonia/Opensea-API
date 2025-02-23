@@ -1,0 +1,38 @@
+
+Database:
+    1) ესეიგი პირველი შევქმნა დატაბეისის კლასი ექსექიუთით, ფეთჩით, ინიციალიზაციით და ქლოუსით
+
+    2) მჭირდება base მოდელი, რათა შევქმნა ცხრილი
+
+    3) base მოდელის გამოყენებით ვქმნი მოდელს
+
+
+ETL:
+
+    1) ვქმნი ფაილს ექსთრაქთისთვის, ერორ ჰანდლინგით
+        -- ესეიგი გვაქ ლიმიტი, მხოლოდ ვტვირთავთ 5 ფეიჯს.
+        -- ერორ ჰენდლინგი მუშაობს
+
+    1.5) შევქმენი data_lake ფოლდერი რათა შევინახო მონაცემები
+
+    2) შემდეგი არის ტრანსფორმაცია მონაცემების, გაფილტვრა, მნიშვნელობების მინიჭება იმათთვის რომელბსაც არ აქვთ მნიშვნელობები
+
+
+ესეიგი როგორ გავაკეთე ქუერი ჩეინი:
+
+    პირველ რიგში შევქმენი ახალი კლასი რომელსაც დავარქვი ქუერისეტი და გავხადე ლისტი QuerySet(list)
+    ლისტი იმიტომ რომ პირველ რიგში როცა მართლა გვჭირდება ქუერის გაეკთება მაშინ აკეთებს ქუერის:
+
+        qs = Collection.filter(name__icontains="Modern Art Collection")  # No DB query yet!
+        print(qs) # QuerySet is created, but no SQL runs.
+
+        for record in qs:  # Now the SQL SELECT query runs!
+            print(record.name)
+
+    როგორც ლისტი ისე შეგვიძლია რომ გავლუპოთ:
+
+        qs = Collection.filter(name__icontains="Modern Art Collection")
+        for collection in qs:
+            print(collection.name)  # Each record is treated like a list element.
+
+    
