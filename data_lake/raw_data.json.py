@@ -25,7 +25,7 @@
                 "chain": "base"
             }
         ]
-    },
+    }, 
     {
         "collection": "molandaks-3",
         "name": "Molandaks",
