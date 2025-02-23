@@ -35,3 +35,4 @@ following fields need to be present in your table:
 ● owner: The owner of the collection.
 ● twitter_username: username of the owner of collection.
 ● contracts: Details of the contracts associated with the collection.
+
