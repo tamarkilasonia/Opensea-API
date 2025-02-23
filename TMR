@@ -10,6 +10,7 @@ of your choice.
 
 Data Extraction from OpenSea API
 
+
 ////////////////////// შესრულებულია ///////////////////////////////
 ● Use the OpenSea Collections API endpoint (https://api.opensea.io/api/v2/collections) to
 extract data. documentation
