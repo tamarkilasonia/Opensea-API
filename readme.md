@@ -39,7 +39,7 @@ project_root/
 from handle_etl.extract import fetch_collections
 raw_data = fetch_collections()
 ```
-l
+
 
 ### 2. Data Transformation
 
