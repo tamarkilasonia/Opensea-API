@@ -120,8 +120,7 @@ DB_USER=your_db_user
 DB_PASS=your_db_pass
 
 OPENSEA_API_KEY=your_api_key
-```4
-
+```
 ## Dependencies
 
 Install dependencies using:
